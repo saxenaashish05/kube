@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sample-app
+spec:
+  containers:
+  - name: sample-app
+    image: ashish0584/docker-nodejs-sample-server:v3
+    ports:
+    - containerPort: 3000
+
