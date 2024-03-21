@@ -9,7 +9,7 @@ jobs:
     name: Static Code Analysis
     runs-on: ubuntu-latest
     steps:
-      - name: Run Static Code Analysis
+      - name: Run ESLint Job
         uses: ./.github/workflows/ci.yml
   push_to_registry:
     name: Push Docker image to Docker Hub
