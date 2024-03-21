@@ -1,18 +1,4 @@
-name: Static Code Analysis
 
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - main
-
-jobs:
-  eslint:
-    name: ESLint
-    runs-on: ubuntu-latest
-    
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
